@@ -5,7 +5,7 @@
  * A dynamic, browser-based visualization library.
  *
  * @version 4.21.1
- * @date    2018-06-13
+ * @date    2018-08-06
  *
  * @license
  * Copyright (C) 2011-2017 Almende B.V, http://almende.com
@@ -54513,7 +54513,7 @@ var NavigationHandler = function () {
 
       for (var i = 0; i < navigationDivs.length; i++) {
         this.navigationDOM[navigationDivs[i]] = document.createElement('div');
-        this.navigationDOM[navigationDivs[i]].className = 'vis-button vis-' + navigationDivs[i];
+        this.navigationDOM[navigationDivs[i]].className = 'mat-mini-fab vis-button vis-' + navigationDivs[i];
         this.navigationDOM['wrapper'].appendChild(this.navigationDOM[navigationDivs[i]]);
 
         var hammer = new Hammer(this.navigationDOM[navigationDivs[i]]);
